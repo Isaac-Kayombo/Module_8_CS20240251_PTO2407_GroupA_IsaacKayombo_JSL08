@@ -1,7 +1,10 @@
 //CREATING VARIABLE FOR SINGLETON INSTANCE
 let bankBranchInstance = null;
 
-
+// DEFINING CLASS FOR MANAGING BRANCH INFOMATION
+class BankBranch {
+    
+}
 
 // This one will be a little tricky. So check out this overview first: https://www.youtube.com/watch?v=sJ-c3BA-Ypo
 
