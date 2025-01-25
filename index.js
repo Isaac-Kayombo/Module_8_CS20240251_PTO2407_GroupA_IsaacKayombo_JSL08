@@ -20,6 +20,17 @@ class BankBranch {
 const branchA = new BankBranch({name: 'Branch A', location: 'Rustenburg, Waterfall Mall'});
 const branchB = new BankBranch({name: 'Branch B', location: 'CBD Rustenburg'});
 
+// LOGGING OUT getBranchInfo METHOD
+console.log(branchA.getBranchInfo());
+console.log(branchB.getBranchInfo());
+
+// VERIFYING branchA and branchB REFER TO SAME INSTANCE
+console.log(branchA === branchB);
+
+
+
+
+
 // This one will be a little tricky. So check out this overview first: https://www.youtube.com/watch?v=sJ-c3BA-Ypo
 
 // 1. Create a variable to store the singleton instance of the bank branch. "bankBranchInstance"
