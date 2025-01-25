@@ -11,6 +11,10 @@ class BankBranch {
         // IF INSTANCE EXISTS, RETURN bankBranchInstance
         return bankBranchInstance;
     }
+    //GETTING BRANCH INFO
+    getBranchInfo() {
+        return this.branchInfo;
+    }
 }
 
 // This one will be a little tricky. So check out this overview first: https://www.youtube.com/watch?v=sJ-c3BA-Ypo
