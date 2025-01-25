@@ -16,6 +16,9 @@ class BankBranch {
         return this.branchInfo;
     }
 }
+// CREATING INSTANCES OF BANKBRANCH CLASS WITH DIFFERENT INFORMATION
+const branchA = new BankBranch({name: 'Branch A', location: 'Rustenburg, Waterfall Mall'});
+const branchB = new BankBranch({name: 'Branch B', location: 'CBD Rustenburg'});
 
 // This one will be a little tricky. So check out this overview first: https://www.youtube.com/watch?v=sJ-c3BA-Ypo
 
