@@ -3,7 +3,14 @@ let bankBranchInstance = null;
 
 // DEFINING CLASS FOR MANAGING BRANCH INFOMATION
 class BankBranch {
-    
+    constructor(branchInfo) {
+        if (bankBranchInstance === null) {
+            this.branchInfo = branchInfo;
+            bankBranchInstance = this;
+        }
+        // IF INSTANCE EXISTS, RETURN bankBranchInstance
+        return bankBranchInstance;
+    }
 }
 
 // This one will be a little tricky. So check out this overview first: https://www.youtube.com/watch?v=sJ-c3BA-Ypo
